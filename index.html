@@ -69,9 +69,10 @@
         alert(
           "kurt dizisi içerisinde dizi boyutundan farklı sayıda kurt bulunmaktadır."
         );
+        return 0;
       }
       if (value1 < 5 || value1 > 200000) {
-        alert("dizi boyutu 4 ile 200000 arasında olmalıdır.");
+        alert("dizi boyutu 5 ile 200000 arasında olmalıdır.");
       }
 
       const arr = value2.split("").map((num) => {
